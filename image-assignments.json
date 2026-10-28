@@ -1,0 +1,167 @@
+{
+  "": [
+    "event",
+    "Tablet stations at a conference welcome desk",
+    "Postes sur tablette à un comptoir d’accueil de congrès"
+  ],
+  "ipad-rentals": [
+    "v3/comparison",
+    "Three tablet sizes arranged side by side",
+    "Trois tailles de tablettes côte à côte"
+  ],
+  "standard-ipad-rentals": [
+    "v3/standard-tablet",
+    "Tablet in a protective case on a desk",
+    "Tablette dans un étui sur un bureau"
+  ],
+  "ipad-mini-rentals": [
+    "v3/compact-tablet",
+    "Compact tablet held in one hand",
+    "Tablette compacte tenue dans une main"
+  ],
+  "ipad-air-rentals": [
+    "v3/creative-tablet",
+    "Tablet and stylus beside design drawings",
+    "Tablette et stylet à côté de dessins de conception"
+  ],
+  "ipad-pro-rentals": [
+    "v3/premium-tablet",
+    "Large tablet paired with a keyboard",
+    "Grande tablette avec clavier"
+  ],
+  "cellular-ipad-rentals": [
+    "device",
+    "iPad and stylus on a stone surface",
+    "iPad et stylet sur une surface de pierre"
+  ],
+  "bulk-ipad-rentals": [
+    "v3/bulk",
+    "Rows of tablets organised for a group deployment",
+    "Rangées de tablettes organisées pour un déploiement"
+  ],
+  "solutions/conference-ipad-rentals": [
+    "v3/conference",
+    "Conference assistance desk equipped with tablets",
+    "Comptoir d’assistance de congrès équipé de tablettes"
+  ],
+  "solutions/event-check-in-ipad-rentals": [
+    "v3/registration-kit",
+    "Tablet, stand and badge printer arranged together",
+    "Tablette, support et imprimante à cocardes regroupés"
+  ],
+  "solutions/registration-ipad-rentals": [
+    "peripherals",
+    "Printer and scanner at a registration workstation",
+    "Imprimante et lecteur à un poste d’inscription"
+  ],
+  "solutions/trade-show-ipad-rentals": [
+    "trade",
+    "Tablet on an exhibition counter",
+    "Tablette sur un comptoir d’exposition"
+  ],
+  "solutions/ticket-scanning-ipad-rentals": [
+    "v3/ticket-scanning",
+    "Staff checking a mobile ticket with a tablet",
+    "Personnel vérifiant un billet mobile avec une tablette"
+  ],
+  "solutions/survey-ipad-rentals": [
+    "v3/survey",
+    "Interviewer offering a tablet to a participant",
+    "Personne proposant une tablette à un participant"
+  ],
+  "solutions/training-ipad-rentals": [
+    "training",
+    "Tablets prepared on training-room tables",
+    "Tablettes préparées sur les tables d’une salle de formation"
+  ],
+  "solutions/corporate-ipad-rentals": [
+    "v3/corporate",
+    "Business team using tablets around a meeting table",
+    "Équipe utilisant des tablettes autour d’une table de réunion"
+  ],
+  "solutions/temporary-office-ipad-rentals": [
+    "v3/temporary-office",
+    "Temporary desks with tablets and keyboards",
+    "Bureaux temporaires avec tablettes et claviers"
+  ],
+  "solutions/kiosk-ipad-rentals": [
+    "kiosk",
+    "Freestanding tablet kiosk in a bright lobby",
+    "Borne sur tablette dans un hall lumineux"
+  ],
+  "solutions/field-service-ipad-rentals": [
+    "field",
+    "Worker consulting a tablet outdoors",
+    "Personne consultant une tablette sur le terrain"
+  ],
+  "solutions/data-collection-ipad-rentals": [
+    "v3/data-collection",
+    "Researcher recording observations on a tablet",
+    "Personne consignant ses observations sur une tablette"
+  ],
+  "solutions/festival-ipad-rentals": [
+    "v3/festival",
+    "Sheltered tablet stations at an outdoor entrance",
+    "Postes sur tablette abrités à une entrée extérieure"
+  ],
+  "solutions/sporting-event-ipad-rentals": [
+    "v3/sports",
+    "Tablet registration at a running event",
+    "Inscription sur tablette lors d’une course"
+  ],
+  "solutions/product-launch-ipad-rentals": [
+    "v3/product-launch",
+    "Interactive tablet at a product demonstration counter",
+    "Tablette interactive à un comptoir de démonstration"
+  ],
+  "solutions/education-ipad-rentals": [
+    "v3/education",
+    "Adult learners using tablets in a classroom",
+    "Adultes utilisant des tablettes en classe"
+  ],
+  "solutions/film-production-ipad-rentals": [
+    "v3/film",
+    "Production crew reviewing a tablet beside film equipment",
+    "Équipe consultant une tablette près de matériel de tournage"
+  ],
+  "rental-kits/trade-show": [
+    "v3/trade-kit",
+    "Secured counter tablet with a mobile hotspot",
+    "Tablette sécurisée sur comptoir avec point d’accès mobile"
+  ],
+  "rental-kits/survey": [
+    "v3/survey-kit",
+    "Protected tablet and charger on a side table",
+    "Tablette protégée et chargeur sur une table"
+  ],
+  "rental-kits/training": [
+    "v3/training-kit",
+    "Tablet transport case with charging supplies",
+    "Mallette de tablettes avec accessoires de recharge"
+  ],
+  "rental-kits/kiosk": [
+    "v3/kiosk-kit",
+    "Tablet enclosure, stand base and cable",
+    "Boîtier de tablette, base de support et câble"
+  ],
+  "rental-kits/field-team": [
+    "v3/field-kit",
+    "Protected tablet, power bank and carrying case",
+    "Tablette protégée, batterie externe et mallette"
+  ],
+  "configuration": [
+    "v3/preparation",
+    "Technician inspecting tablets in a preparation room",
+    "Technicien vérifiant des tablettes dans un espace de préparation"
+  ],
+  "industries/research": [
+    "survey",
+    "Participant completing a tablet form",
+    "Participant remplissant un formulaire sur tablette"
+  ],
+  "technology-rentals": [
+    "computing",
+    "Laptop, phone and tablet on a clean work surface",
+    "Portable, téléphone et tablette sur une surface de travail"
+  ]
+}
