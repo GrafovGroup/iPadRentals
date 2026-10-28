@@ -48,4 +48,28 @@ export async function handleLead(request,env,ctx){
   return json({ok:true,reference:saved.id},201);
  }catch(e){console.error('Enquiry persistence failed',e?.name||'Error');return json({error:'unavailable'},503)}
 }
-export async function notify(env,id,payload){const lock=await env.DB.prepare("UPDATE enquiries SET notification_status='sending', notification_attempts=notification_attempts+1, notification_last_attempt=? WHERE id=? AND (notification_status NOT IN ('delivered','sending') OR (notification_status='sending' AND notification_last_attempt < ?))").bind(Date.now(),id,Date.now()-300000).run();if(!lock.meta.changes)return;let status='failed';try{const u=new URL(env.LEAD_WEBHOOK_URL);if(u.protocol!=='https:')throw new Error('Invalid destination');const response=await fetch(u,{method:'POST',headers:{'Content-Type':'application/json','Idempotency-Key':id,...(env.LEAD_WEBHOOK_SECRET?{'Authorization':'Bearer '+env.LEAD_WEBHOOK_SECRET}:{})},body:JSON.stringify({reference:id,notificationTo:env.LEAD_NOTIFICATION_EMAIL||null,...payload}),signal:AbortSignal.timeout(10000),redirect:'error'});status=response.ok?'delivered':'failed'}catch{console.error('Enquiry notification failed; stored enquiry retained')}await env.DB.prepare('UPDATE enquiries SET notification_status = ? WHERE id = ?').bind(status,id).run()}
+// Formspree accepts a standard URL-encoded form. Keep contact fields separate for reply-to.
+export function formspreeFields(id,payload){
+ const fields={_subject:`iPadRentals.ca ${payload.kind==='quick'?'quick quote':'rental request'} ${id}`,reference:id,form_type:payload.kind,language:payload.locale};
+ for(const key of ['name','company','email','phone','city','province','postal','start','end','quantity','device','network','configuration','delivery','apps','notes','use','technician']){
+  const value=payload[key];if(value!==undefined&&value!==null&&String(value).trim())fields[key]=String(value);
+ }
+ if(payload.accessories?.length)fields.accessories=payload.accessories.join(', ');
+ for(const [key,value] of Object.entries(payload.attribution||{}))if(value)fields['attribution_'+key]=value;
+ return fields;
+}
+export async function notify(env,id,payload){
+ const lock=await env.DB.prepare("UPDATE enquiries SET notification_status='sending', notification_attempts=notification_attempts+1, notification_last_attempt=? WHERE id=? AND (notification_status NOT IN ('delivered','sending') OR (notification_status='sending' AND notification_last_attempt < ?))").bind(Date.now(),id,Date.now()-300000).run();
+ if(!lock.meta.changes)return;
+ let status='failed';
+ try{
+  const u=new URL(env.LEAD_WEBHOOK_URL);if(u.protocol!=='https:')throw new Error('Invalid destination');
+  const isFormspree=u.hostname==='formspree.io'&&u.pathname.startsWith('/f/');
+  const headers=isFormspree?{'Content-Type':'application/x-www-form-urlencoded','Accept':'application/json','Origin':'https://ipadrentals.ca'}:{'Content-Type':'application/json','Idempotency-Key':id,...(env.LEAD_WEBHOOK_SECRET?{'Authorization':'Bearer '+env.LEAD_WEBHOOK_SECRET}:{})};
+  const body=isFormspree?new URLSearchParams(formspreeFields(id,payload)).toString():JSON.stringify({reference:id,notificationTo:env.LEAD_NOTIFICATION_EMAIL||null,...payload});
+  const response=await fetch(u,{method:'POST',headers,body,signal:AbortSignal.timeout(10000),redirect:'error'});
+  // A successful response confirms provider acceptance, not inbox delivery.
+  status=response.ok?'delivered':'failed';
+ }catch{console.error('Enquiry notification failed; stored enquiry retained')}
+ await env.DB.prepare('UPDATE enquiries SET notification_status = ? WHERE id = ?').bind(status,id).run();
+}

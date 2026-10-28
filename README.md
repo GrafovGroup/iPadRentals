@@ -12,7 +12,7 @@ Bilingual iPad rental website powered by I Love Events. Existing private Sites i
 
 POST `/api/enquiries` validates and saves requests in D1. The public site has no endpoint for reading leads. Site-owner database access is provided by Sites. Controls include exact-origin validation, JSON-only requests, honeypot, timing check, bounded inputs, prepared SQL, rate limiting, unique idempotency keys and retry-safe saves. Request failures preserve the browser input. Only a successful persistence response shows receipt confirmation. No production enquiry was submitted during validation.
 
-Optional notifications use server-only `LEAD_WEBHOOK_URL` and `LEAD_WEBHOOK_SECRET`. Configure an authorised HTTPS provider adapter through Sites runtime secrets. Requests carry an idempotency key. Failed notification attempts remain marked in the database and do not remove a valid enquiry. No recipient or delivery provider is invented. Inspect `notification_status` for unconfigured/failed records before configuring or retrying delivery.
+Notifications use the configured Formspree endpoint via server-side form submission after the enquiry is saved. Formspree controls notification recipients. An accepted provider response is recorded as `delivered`, but does not prove email inbox delivery. Failed or previously unconfigured attempts can be retried from the owner dashboard; a retry after an ambiguous network timeout may create a duplicate in Formspree.
 
 The full form includes contact, company, dates, location, quantity, connectivity, accessories, configuration and delivery. Quick forms capture the essentials. No credentials should ever be submitted.
 
@@ -45,7 +45,7 @@ The enquiry address is info@ipadrentals.ca. Confirmed inventory is standard iPad
 
 `refinement-content.mjs` and `scripts/refine-site.mjs` shorten the homepage, provide a comparison and four detailed workflow guides, remove repeated promotional prose, and assign 33 distinct images to topics. English/French equivalents share the corresponding image. Navigation, contact information and functional form labels intentionally remain consistent. City pages are indexable and included in the sitemap. Province detail pages remain noindex,follow and omitted from the sitemap.
 
-The owner dashboard is `/manage/`. It requires the platform's authenticated user ID and verified email matching server-only ADMIN_OWNER_EMAIL. It supports lead status, private notes, pagination, delivery status and failed notification retries. LEAD_NOTIFICATION_EMAIL is info@ipadrentals.ca; an authorized HTTPS LEAD_WEBHOOK_URL adapter is still required to send notifications. Saving an enquiry works independently of email. There is no configured email delivery service. No production enquiry was submitted in testing.
+The owner dashboard is `/manage/`. It requires the platform's authenticated user ID and verified email matching server-only ADMIN_OWNER_EMAIL. It supports lead status, private notes, pagination, delivery status and failed notification retries. Formspree is the configured notification provider; the recipient is managed in Formspree. Saving an enquiry works independently of provider acceptance. No production enquiry was submitted in testing.
 
 First-party analytics are opt-in and aggregate counts by day, path, language and allowed event, with no contact details or visitor identifier. GA4/GTM remain unconfigured. The owner dashboard combines consented funnel counts with saved enquiry statuses. Every migration in drizzle is applied to local preview/testing.
 
