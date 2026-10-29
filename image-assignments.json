@@ -163,5 +163,460 @@
     "computing",
     "Laptop, phone and tablet on a clean work surface",
     "Portable, téléphone et tablette sur une surface de travail"
+  ],
+  "solutions/event-ipad-rentals": [
+    "new/solutions--event-ipad-rentals",
+    "Event staff preparing tablet stations at a modern event venue",
+    "Personnel préparant des tablettes dans un espace événementiel"
+  ],
+  "solutions/construction-ipad-rentals": [
+    "new/solutions--construction-ipad-rentals",
+    "Rugged tablet on construction plans beside a hard hat in an active site office",
+    "Tablette robuste sur des plans de chantier près d’un casque"
+  ],
+  "rental-kits/registration": [
+    "new/rental-kits--registration",
+    "Tablet registration kit with a badge printer, scanner and lanyards on a counter",
+    "Ensemble d’inscription avec tablette, imprimante, lecteur et cordons"
+  ],
+  "accessories/ipad-stands": [
+    "new/accessories--ipad-stands",
+    "Adjustable tablet stand on a minimal exhibition counter, tablet securely mounted",
+    "Support réglable avec tablette sur un comptoir d’exposition"
+  ],
+  "accessories/tabletop-ipad-stands": [
+    "new/accessories--tabletop-ipad-stands",
+    "Compact tabletop tablet stand on a reception desk, close product view",
+    "Support de table pour tablette sur un comptoir d’accueil"
+  ],
+  "accessories/floor-ipad-stands": [
+    "new/accessories--floor-ipad-stands",
+    "Freestanding floor tablet stand in an elegant modern lobby",
+    "Support sur pied pour tablette dans un hall moderne"
+  ],
+  "accessories/ipad-kiosks": [
+    "new/accessories--ipad-kiosks",
+    "Secure enclosed tablet kiosk with clean metal pedestal at a conference venue",
+    "Borne sécurisée avec tablette et pied métallique dans un lieu de congrès"
+  ],
+  "accessories/charging-stations": [
+    "new/accessories--charging-stations",
+    "Organised multi-device tablet charging station with tidy cabling in a workroom",
+    "Station de recharge de tablettes avec câbles bien rangés"
+  ],
+  "accessories/mobile-hotspots": [
+    "new/accessories--mobile-hotspots",
+    "Small portable mobile hotspot and tablet on an event planning table",
+    "Point d’accès mobile et tablette sur une table de planification"
+  ],
+  "accessories/keyboards": [
+    "new/accessories--keyboards",
+    "Tablet paired with a compact keyboard on a business desk",
+    "Tablette et clavier compact sur un bureau"
+  ],
+  "accessories/apple-pencil": [
+    "new/accessories--apple-pencil",
+    "Tablet and a white digital stylus on a creative designer desk",
+    "Tablette et stylet blanc sur un bureau de création"
+  ],
+  "technology-rentals/laptop-rentals": [
+    "new/technology-rentals--laptop-rentals",
+    "Several modern laptops prepared for a temporary business training session",
+    "Ordinateurs portables préparés pour une formation"
+  ],
+  "technology-rentals/macbook-rentals": [
+    "new/technology-rentals--macbook-rentals",
+    "A slim silver laptop on a clean conference table, professional product photography",
+    "Ordinateur portable argenté sur une table de conférence"
+  ],
+  "technology-rentals/iphone-rentals": [
+    "new/technology-rentals--iphone-rentals",
+    "A group of modern smartphones neatly arranged for a temporary project",
+    "Téléphones intelligents disposés pour un projet temporaire"
+  ],
+  "technology-rentals/android-tablet-rentals": [
+    "new/technology-rentals--android-tablet-rentals",
+    "Modern Android-style tablets arranged on a bright worktable",
+    "Tablettes Android disposées sur une table de travail"
+  ],
+  "technology-rentals/scanner-rentals": [
+    "new/technology-rentals--scanner-rentals",
+    "Handheld barcode scanner next to tablet and event ticket at registration counter",
+    "Lecteur de codes-barres près d’une tablette et d’un billet"
+  ],
+  "technology-rentals/printer-rentals": [
+    "new/technology-rentals--printer-rentals",
+    "Compact label printer and badge stock beside a tablet at an event registration desk",
+    "Imprimante d’étiquettes et badges près d’une tablette"
+  ],
+  "technology-rentals/display-rentals": [
+    "new/technology-rentals--display-rentals",
+    "Large clean display monitor connected to a laptop in a meeting room",
+    "Grand écran connecté à un portable dans une salle de réunion"
+  ],
+  "industries/events": [
+    "new/industries--events",
+    "Event organiser reviewing tablet registration setup at a modern venue",
+    "Responsable d’événement vérifiant un poste d’inscription sur tablette"
+  ],
+  "industries/corporate": [
+    "new/industries--corporate",
+    "Business team reviewing a tablet in a bright meeting room",
+    "Équipe d’entreprise consultant une tablette en réunion"
+  ],
+  "industries/education": [
+    "new/industries--education",
+    "Adult learners using tablets in a welcoming modern training classroom",
+    "Adultes utilisant des tablettes dans une salle de formation"
+  ],
+  "industries/government": [
+    "new/industries--government",
+    "Public service staff using a tablet at a municipal information counter",
+    "Personnel de service public utilisant une tablette au comptoir municipal"
+  ],
+  "industries/construction": [
+    "new/industries--construction",
+    "Construction project team reviewing digital plans on a tablet in a site office",
+    "Équipe de chantier consultant des plans numériques sur tablette"
+  ],
+  "industries/field-services": [
+    "new/industries--field-services",
+    "Field technician with a protective tablet case checking work outdoors",
+    "Technicien sur le terrain consultant une tablette protégée"
+  ],
+  "industries/marketing-agencies": [
+    "new/industries--marketing-agencies",
+    "Marketing team planning an interactive tablet activation at an exhibition counter",
+    "Équipe de marketing préparant une activation sur tablette"
+  ],
+  "industries/nonprofits": [
+    "new/industries--nonprofits",
+    "Community volunteers using a tablet at a welcome table",
+    "Bénévoles communautaires utilisant une tablette à l’accueil"
+  ],
+  "industries/sports": [
+    "new/industries--sports",
+    "Sports event volunteers using a tablet at a participant check-in station",
+    "Bénévoles sportifs utilisant une tablette à l’inscription"
+  ],
+  "industries/film-production": [
+    "new/industries--film-production",
+    "Film production crew checking a tablet near professional camera equipment",
+    "Équipe de tournage consultant une tablette près d’une caméra"
+  ],
+  "industries/retail-pop-ups": [
+    "new/industries--retail-pop-ups",
+    "Tablet display on an elegant temporary retail pop-up counter",
+    "Tablette sur le comptoir d’une boutique éphémère"
+  ],
+  "resources/registration-device-count": [
+    "new/resources--registration-device-count",
+    "Multiple tablet check-in stations arranged for smooth arrivals at a conference",
+    "Plusieurs postes d’accueil sur tablette dans un congrès"
+  ],
+  "resources/cellular-or-wifi": [
+    "new/resources--cellular-or-wifi",
+    "Tablet beside portable hotspot on a venue planning desk",
+    "Tablette et point d’accès mobile sur un bureau"
+  ],
+  "resources/rental-preparation-checklist": [
+    "new/resources--rental-preparation-checklist",
+    "Tablet with charger, stand and a blank checklist on a clean preparation desk",
+    "Tablette, chargeur, support et liste de vérification sur un bureau"
+  ],
+  "solutions": [
+    "new/solutions",
+    "A selection of tablet stations arranged for conferences, trade shows and training",
+    "Postes sur tablette pour congrès, salons et formations"
+  ],
+  "rental-kits": [
+    "new/rental-kits",
+    "A curated collection of tablets, protective cases, stands and chargers on a preparation table",
+    "Collection de tablettes, étuis, supports et chargeurs"
+  ],
+  "locations": [
+    "new/locations",
+    "Tablet registration station in a modern Canadian event venue",
+    "Poste d’inscription sur tablette dans un espace événementiel"
+  ],
+  "accessories": [
+    "new/accessories",
+    "Tablet accessories including stand, case, keyboard, charger and stylus arranged neatly",
+    "Accessoires pour tablette : support, étui, clavier, chargeur et stylet"
+  ],
+  "industries": [
+    "new/industries",
+    "A diverse professional team using tablets in a contemporary workplace",
+    "Équipe professionnelle utilisant des tablettes au travail"
+  ],
+  "resources": [
+    "new/resources",
+    "Tablet and planning materials arranged on a bright desk for an event setup",
+    "Tablette et matériel de planification sur un bureau"
+  ],
+  "how-it-works": [
+    "new/how-it-works",
+    "Hands preparing tablets and neatly checking equipment before an event",
+    "Préparation et vérification de tablettes avant un événement"
+  ],
+  "about": [
+    "new/about",
+    "Professional technology rental team arranging tablets in a bright workspace",
+    "Équipe préparant des tablettes dans un espace de travail"
+  ],
+  "pricing": [
+    "new/pricing",
+    "Tablet, stand and accessories neatly arranged for a rental project on a planning desk",
+    "Tablette, support et accessoires pour un projet de location"
+  ],
+  "faq": [
+    "new/faq",
+    "Tablet and open notebook on a clean professional consultation desk",
+    "Tablette et carnet ouvert sur un bureau de consultation"
+  ],
+  "contact": [
+    "new/contact",
+    "A tablet on the desk of a welcoming professional customer service workspace",
+    "Tablette sur un bureau de service à la clientèle"
+  ],
+  "rental-kits/event-check-in": [
+    "new/checkin",
+    "Tablet check-in station with badge printer at a conference venue",
+    "Poste d’accueil sur tablette avec imprimante à badges"
+  ],
+  "locations/ontario/toronto": [
+    "new/locations--ontario--toronto",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/quebec/montreal": [
+    "new/locations--quebec--montreal",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/british-columbia/vancouver": [
+    "new/locations--british-columbia--vancouver",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/alberta/calgary": [
+    "new/locations--alberta--calgary",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/ottawa": [
+    "new/locations--ontario--ottawa",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/alberta/edmonton": [
+    "new/locations--alberta--edmonton",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/manitoba/winnipeg": [
+    "new/locations--manitoba--winnipeg",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/nova-scotia/halifax": [
+    "new/locations--nova-scotia--halifax",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/quebec/quebec-city": [
+    "new/locations--quebec--quebec-city",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/mississauga": [
+    "new/locations--ontario--mississauga",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/hamilton": [
+    "new/locations--ontario--hamilton",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/kitchener": [
+    "new/locations--ontario--kitchener",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/london": [
+    "new/locations--ontario--london",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/british-columbia/victoria": [
+    "new/locations--british-columbia--victoria",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/saskatchewan/saskatoon": [
+    "new/locations--saskatchewan--saskatoon",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/brampton": [
+    "new/locations--ontario--brampton",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/cambridge": [
+    "new/locations--ontario--cambridge",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/waterloo": [
+    "new/locations--ontario--waterloo",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/markham": [
+    "new/locations--ontario--markham",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/vaughan": [
+    "new/locations--ontario--vaughan",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/richmond-hill": [
+    "new/locations--ontario--richmond-hill",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/newmarket": [
+    "new/locations--ontario--newmarket",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/barrie": [
+    "new/locations--ontario--barrie",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/kingston": [
+    "new/locations--ontario--kingston",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/windsor": [
+    "new/locations--ontario--windsor",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/niagara-falls": [
+    "new/locations--ontario--niagara-falls",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario/st-catharines": [
+    "new/locations--ontario--st-catharines",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/british-columbia/surrey": [
+    "new/locations--british-columbia--surrey",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/british-columbia/burnaby": [
+    "new/locations--british-columbia--burnaby",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/british-columbia/richmond-bc": [
+    "new/locations--british-columbia--richmond-bc",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/british-columbia/kelowna": [
+    "new/locations--british-columbia--kelowna",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/saskatchewan/regina": [
+    "new/locations--saskatchewan--regina",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/new-brunswick/moncton": [
+    "new/locations--new-brunswick--moncton",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/new-brunswick/fredericton": [
+    "new/locations--new-brunswick--fredericton",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/new-brunswick/saint-john": [
+    "new/locations--new-brunswick--saint-john",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/newfoundland-and-labrador/st-johns": [
+    "new/locations--newfoundland-and-labrador--st-johns",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/prince-edward-island/charlottetown": [
+    "new/locations--prince-edward-island--charlottetown",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/ontario": [
+    "new/locations--ontario",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/british-columbia": [
+    "new/locations--british-columbia",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/alberta": [
+    "new/locations--alberta",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/quebec": [
+    "new/locations--quebec",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/manitoba": [
+    "new/locations--manitoba",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/saskatchewan": [
+    "new/locations--saskatchewan",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/nova-scotia": [
+    "new/locations--nova-scotia",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/new-brunswick": [
+    "new/locations--new-brunswick",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/newfoundland-and-labrador": [
+    "new/locations--newfoundland-and-labrador",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
+  ],
+  "locations/prince-edward-island": [
+    "new/locations--prince-edward-island",
+    "Tablet setup in a professional event or business setting",
+    "Configuration sur tablette dans un espace professionnel ou événementiel"
   ]
 }

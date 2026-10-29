@@ -50,3 +50,7 @@ The owner dashboard is `/manage/`. It requires the platform's authenticated user
 First-party analytics are opt-in and aggregate counts by day, path, language and allowed event, with no contact details or visitor identifier. GA4/GTM remain unconfigured. The owner dashboard combines consented funnel counts with saved enquiry statuses. Every migration in drizzle is applied to local preview/testing.
 
 Image provenance is internal in v3-image-provenance.json; visuals do not substantiate customer or completed-project claims. Real client evidence, verified specifications and locality details still require business-supplied information.
+
+## Page imagery
+
+The imagery assignments in `image-assignments.json` and `new-image-assignments.json` provide distinct topic images for the English pages and their French equivalents. The new images are illustrative; they do not depict verified client projects or specific locations. Responsive WebP assets are kept in `dist/assets/new/`.

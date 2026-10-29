@@ -34,6 +34,7 @@ const assignments={
 'configuration':['v3/preparation','Technician inspecting tablets in a preparation room','Technicien vérifiant des tablettes dans un espace de préparation'],
 'industries/research':['survey','Participant completing a tablet form','Participant remplissant un formulaire sur tablette'],
  'technology-rentals':['computing','Laptop, phone and tablet on a clean work surface','Portable, téléphone et tablette sur une surface de travail']};
+Object.assign(assignments, JSON.parse(fs.readFileSync('new-image-assignments.json','utf8')));
 const normal=s=>s.replace(/\s+/g,' ').trim();
 for(const route of routes){const file='dist'+route.path+'index.html',fr=route.lang==='fr',topic=route.path.replace(/^\/fr\//,'/').replace(/^\/|\/$/g,'');const $=load(fs.readFileSync(file,'utf8'));const main=$('main');if(topic==='')main.html(homepage(fr));if(topic==='ipad-rentals')main.html(comparison(fr));
 // Remove duplicated promotional and boilerplate elements; preserve standard navigation and form UI.
